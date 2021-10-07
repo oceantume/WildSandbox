@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WildSandbox.Common\WildSandbox.Common.csproj" />
+    <ProjectReference Include="..\WildSandbox.MessageEngine\WildSandbox.MessageEngine.csproj" />
+    <ProjectReference Include="..\WildSandbox.Messages.Build6072\WildSandbox.Messages.Build6072.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\WildSandbox.Messages.Build6152\WildSandbox.Messages.Build6152.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>

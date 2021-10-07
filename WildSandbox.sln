@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildSandbox", "WildSandbox\WildSandbox.csproj", "{CCE6D27C-2247-4768-BE45-54B02C93757D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23583653-958B-47E2-AC4D-8A3C28B7721D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildSandbox.MessageEngine", "WildSandbox.MessageEngine\WildSandbox.MessageEngine.csproj", "{CF2357DF-B4D3-412D-A95C-2F05533FAA29}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1} = {F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildSandbox.MessageEngine.Tests", "WildSandbox.MessageEngine.Tests\WildSandbox.MessageEngine.Tests.csproj", "{A0D07411-5D59-43E0-A0A0-B55120E9573D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WildSandbox.OfflineMessageParser", "WildSandbox.OfflineMessageParser\WildSandbox.OfflineMessageParser.csproj", "{4280DEB3-5A9D-4ED9-B5FB-80EB1E254672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1} = {F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildSandbox.Messages.Build6152", "WildSandbox.Messages.Build6152\WildSandbox.Messages.Build6152.csproj", "{ACC4BE06-A4B0-424D-9F3B-8447544DD77C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildSandbox.Messages.Build6072", "WildSandbox.Messages.Build6072\WildSandbox.Messages.Build6072.csproj", "{6192F9A0-B97D-4CB6-B452-7A8E6F009BBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1} = {F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildSandbox.Common", "WildSandbox.Common\WildSandbox.Common.csproj", "{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE6D27C-2247-4768-BE45-54B02C93757D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE6D27C-2247-4768-BE45-54B02C93757D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE6D27C-2247-4768-BE45-54B02C93757D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE6D27C-2247-4768-BE45-54B02C93757D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2357DF-B4D3-412D-A95C-2F05533FAA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2357DF-B4D3-412D-A95C-2F05533FAA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2357DF-B4D3-412D-A95C-2F05533FAA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2357DF-B4D3-412D-A95C-2F05533FAA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D07411-5D59-43E0-A0A0-B55120E9573D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D07411-5D59-43E0-A0A0-B55120E9573D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D07411-5D59-43E0-A0A0-B55120E9573D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D07411-5D59-43E0-A0A0-B55120E9573D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4280DEB3-5A9D-4ED9-B5FB-80EB1E254672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4280DEB3-5A9D-4ED9-B5FB-80EB1E254672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4280DEB3-5A9D-4ED9-B5FB-80EB1E254672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4280DEB3-5A9D-4ED9-B5FB-80EB1E254672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC4BE06-A4B0-424D-9F3B-8447544DD77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC4BE06-A4B0-424D-9F3B-8447544DD77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC4BE06-A4B0-424D-9F3B-8447544DD77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC4BE06-A4B0-424D-9F3B-8447544DD77C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6192F9A0-B97D-4CB6-B452-7A8E6F009BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6192F9A0-B97D-4CB6-B452-7A8E6F009BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6192F9A0-B97D-4CB6-B452-7A8E6F009BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6192F9A0-B97D-4CB6-B452-7A8E6F009BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B04C78-F83C-4B3F-B094-7E6ADD50C7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A67753FA-2844-439A-9EAA-949478A02C5B}
+	EndGlobalSection
+EndGlobal
